@@ -89,7 +89,7 @@ function LoanManagement({ books, loans, onLoanChange, onQuit }) {
         <div className="loan-form-section">
           {availableBooks.length === 0 ? (
             <div className="all-books-loaned-message">
-              <h3>There are no available books at this time. </h3>
+              <h3>There are no available books to loan at this time. </h3>
                 <p> Please visit at a later time. Thank you! 📖 </p>
             </div>
           ) : (
