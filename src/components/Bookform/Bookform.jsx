@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { nanoid } from "nanoid";
+import './Bookform.css';
 
 function BookForm({book, add}) {
     function handleSubmit(e) {
@@ -127,3 +128,4 @@ function BookForm({book, add}) {
 }
 
 export default BookForm;
+
